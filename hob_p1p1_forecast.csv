@@ -1,0 +1,194 @@
+rank,name,score,percentile,letter,n_printings,display_only_basic
+1,Beorn the Fierce,5.010842,100.0,A+,3,False
+2,"Gollum, Riddle Master",4.424653,99.4792,A+,3,False
+3,Stone-Giant of High Pass,4.392884,98.9583,A+,2,False
+4,Smaug the Magnificent,4.313406,98.4375,A+,4,False
+5,Dáin Ironfoot,4.115655,97.9167,A,2,False
+6,Dancing from Dark to Dawn,4.073589,97.3958,A,3,False
+7,"Azog, Moria's Ruin",3.807145,96.875,A,3,False
+8,Head of the Hunt,3.621075,96.3542,A,3,False
+9,"Tom, Bert, and William",3.496101,95.8333,A,2,False
+10,Bard's Company,3.321064,95.3125,A,2,False
+11,Fíli the Pathfinder,3.243005,94.7917,A-,2,False
+12,The Arkenstone // Seek the Heart,3.232116,94.2708,A-,5,False
+13,Rhovanion Rampager,3.205551,93.75,A-,2,False
+14,Down in the Valley,3.178373,93.2292,A-,1,False
+15,The Great Goblin,3.125989,92.7083,A-,2,False
+16,"Smaug, Wicked Worm",3.125696,92.1875,A-,3,False
+17,Chief Warg's Company,3.066276,91.6667,A-,2,False
+18,Great Gilded Boat,3.014384,91.1458,A-,2,False
+19,The Queen of Dale,2.990047,90.625,A-,3,False
+20,Thranduil's Company,2.946571,90.1042,A-,2,False
+21,Belladonna Took,2.83757,89.5833,B+,3,False
+22,Bejeweled Warg,2.823609,89.0625,B+,2,False
+23,Along the Crooked Way,2.715605,88.5417,B+,2,False
+24,"Gandalf, Goblins' Bane // Flameshape",2.584135,88.0208,B+,3,False
+25,Inside Information,2.357664,87.5,B+,2,False
+26,The Eagles Are Coming!,2.280438,86.9792,B+,2,False
+27,"Dwalin, Weaponmaster",2.260431,86.4583,B+,2,False
+28,Desolation of Smaug,2.211617,85.9375,B+,3,False
+29,"Bard, King of Dale",2.206897,85.4167,B+,3,False
+30,Most Decrepit Old Bird // Speak Secrets,2.203655,84.8958,B+,3,False
+31,"Balin, Loremaster",2.077779,84.375,B+,2,False
+32,The Master of Lake-town,1.994907,83.8542,B+,2,False
+33,Kíli the Resourceful,1.957589,83.3333,B+,2,False
+34,Riddles in the Dark,1.949135,82.8125,B+,2,False
+35,"Elrond, Moon-Reader",1.808488,82.2917,B+,2,False
+36,Radagast of Rhosgobel,1.804223,81.7708,B,2,False
+37,"Thorin, Mountain-king",1.7813,81.25,B,3,False
+38,Cantankerous Keepers,1.780278,80.7292,B,2,False
+39,"Bilbo, Thief in the Night",1.768118,80.2083,B,3,False
+40,The Lord of the Eagles,1.713377,79.6875,B,3,False
+41,Bothersome Noisemaker,1.626865,79.1667,B,1,False
+42,"Orcrist, Goblin-cleaver",1.586016,78.6458,B,3,False
+43,An Unexpected Party // At the Door,1.531475,78.125,B,2,False
+44,"Roads Go Ever, Ever On",1.464651,77.6042,B,1,False
+45,My Precious // Allure of Power,1.42632,77.0833,B,3,False
+46,Gollum the Abandoned,1.368374,76.5625,B,1,False
+47,"Down, Down to Goblin-town",1.344541,76.0417,B,1,False
+48,"Sting, Bilbo's Sword",1.277833,75.5208,B,3,False
+49,Desert Were-Worm,1.256639,75.0,B,3,False
+50,Misty Mountains Raider,1.251097,74.4792,B,1,False
+51,The Notary Hobbits,1.185629,73.9583,B,3,False
+52,Dáin's Company,1.152508,73.4375,B,2,False
+53,The Sackville-Bagginses,0.97657,72.9167,B,2,False
+54,Celebrate the Mountain-king,0.930467,72.3958,B,1,False
+55,Settle the Wreckage,0.910615,71.875,B,2,False
+56,Fateful Discovery,0.901246,71.3542,B,3,False
+57,Bolg of the North,0.801307,70.8333,B,1,False
+58,Last Light of Durin's Day,0.751863,70.3125,B,3,False
+59,"Thranduil, the Elvenking",0.750474,69.7917,B-,3,False
+60,Gathering of Darkness,0.747038,69.2708,B-,1,False
+61,"Bofur, Reliable Guardian // Concerted Care",0.722363,68.75,B-,3,False
+62,Part in Friendship,0.649173,68.2292,B-,2,False
+63,The Mountain-king's Return,0.602271,67.7083,B-,1,False
+64,Gnashing of Teeth,0.530657,67.1875,B-,1,False
+65,Woodland Weavemaster,0.509207,66.6667,B-,1,False
+66,Iron Hills Blacksmith,0.434589,66.1458,B-,3,False
+67,Supper for Spiders,0.419454,65.625,B-,2,False
+68,Old Fat Spider,0.381009,65.1042,B-,1,False
+69,Great Ugly-Looking Goblin // Clap! Snap!,0.37576,64.5833,B-,3,False
+70,The Black Arrow,0.340355,64.0625,B-,1,False
+71,The Misty Mountains Cold,0.305782,63.5417,B-,2,False
+72,Fearsome Goblin Pair,0.233201,63.0208,B-,1,False
+73,"Bilbo, Luckwearer // Burglar's Plot",0.171024,62.5,B-,3,False
+74,Old Fat Spider Can't See Me,0.16271,61.9792,B-,1,False
+75,Stone by Sunlight,0.073201,61.4583,B-,1,False
+76,Sound the Trumpets,0.050182,60.9375,B-,1,False
+77,"Gandalf, Spark Starter",0.006233,60.4167,B-,2,False
+78,Gigantic Big Bear,-0.031326,59.8958,B-,2,False
+79,Eagle's Rescue,-0.064678,59.375,B-,1,False
+80,Patient Instructor,-0.152812,58.8542,B-,1,False
+81,Elven Passage,-0.1612,58.3333,B-,3,False
+82,Bolg's Company,-0.315962,57.8125,C+,2,False
+83,"Galion, Elvenking's Butler",-0.363664,57.2917,C+,1,False
+84,Goblin-town Flunkies,-0.382086,56.7708,C+,1,False
+85,Dreaded Bat-Cloud,-0.41419,56.25,C+,2,False
+86,Wilderland Scrounger,-0.43549,55.7292,C+,1,False
+87,Nighthowl Pursuer,-0.464519,55.2083,C+,1,False
+88,Bilbo's Deadly Slice,-0.501316,54.6875,C+,1,False
+89,Nasty Little Rabbit,-0.583654,54.1667,C+,1,False
+90,Rage into the Valley,-0.595031,53.6458,C+,2,False
+91,"Burn, Burn, Tree and Fern",-0.602878,53.125,C+,1,False
+92,Roll-Roll-Roll-Roll,-0.643596,52.6042,C+,1,False
+93,The Chief Warg,-0.643931,52.0833,C+,1,False
+94,Thrór's Map,-0.648291,51.5625,C+,1,False
+95,Bard the Bowman,-0.691251,51.0417,C+,1,False
+96,Troop of Ponies,-0.706017,50.5208,C+,2,False
+97,Large Bear,-0.735809,50.0,C+,1,False
+98,Silvan Reveler,-0.761275,49.4792,C+,1,False
+99,The Lonely Mountain,-0.805934,48.9583,C+,4,False
+100,"Thranduil, Sindarin Liege // Silvan Rally",-0.818196,48.4375,C+,3,False
+101,Uncover the Moon-Letters,-0.824437,47.9167,C+,2,False
+102,Wizard's Staff,-0.843512,47.3958,C+,2,False
+103,Thorin Oakenshield,-0.856348,46.875,C+,2,False
+104,Lake-town Lookout,-0.874873,46.3542,C+,1,False
+105,"Glamdring, Foe-hammer // Gleam of Death",-0.894835,45.8333,C+,2,False
+106,"Dáin, Lord of the Iron Hills",-0.916843,45.3125,C+,1,False
+107,Glóin the Mighty // Easy Pickings,-0.934991,44.7917,C,3,False
+108,Lake-town Mariners // Gone Fishing,-0.947412,44.2708,C,1,False
+109,Master's Councillors,-1.065351,43.75,C,1,False
+110,Ravenhill Flock,-1.078152,43.2292,C,1,False
+111,Beorn's Hospitality,-1.122211,42.7083,C,1,False
+112,Lake-town Toymaker,-1.15738,42.1875,C,1,False
+113,"Bombur, Gentle Dreamer",-1.159743,41.6667,C,1,False
+114,Bilbo's Gambit,-1.224324,41.1458,C,2,False
+115,Tidings of War,-1.23038,40.625,C,1,False
+116,Troll Negotiations,-1.24248,40.1042,C,1,False
+117,Mirkwood Pathmaker,-1.319354,39.5833,C,1,False
+118,"Bifur, Melodic Rider",-1.337786,39.0625,C,1,False
+119,Dwarven Mauler,-1.358339,38.5417,C,1,False
+120,Eagle of the Great Shelf,-1.369707,38.0208,C,1,False
+121,Enchanted River's Grasp,-1.386248,37.5,C,1,False
+122,Long Lake Nuisance,-1.392321,36.9792,C,1,False
+123,Through the Forest Gate,-1.456954,36.4583,C,2,False
+124,Stir Up Trouble,-1.465566,35.9375,C,1,False
+125,Thranduil's Decree,-1.469355,35.4167,C,1,False
+126,Quarrel,-1.565096,34.8958,C,1,False
+127,Pinecone Strike,-1.595614,34.375,C,1,False
+128,Elven Raft-Steerer,-1.596193,33.8542,C,1,False
+129,Old Thrush,-1.610398,33.3333,C,1,False
+130,Gleaming Splendor,-1.654578,32.8125,C,3,False
+131,Goblin Plate Mail,-1.670355,32.2917,C,1,False
+132,Stony-Voiced Goblins,-1.670929,31.7708,C,1,False
+133,"Beorn, Reluctant Host // Till and Tend",-1.671814,31.25,C,1,False
+134,"Bilbo Baggins, Burglar // Take a Glance",-1.813176,30.7292,C,1,False
+135,Wood Elves,-1.928618,30.2083,C,1,False
+136,Duskwatch Hunter,-1.928783,29.6875,C-,1,False
+137,Magnificent End,-1.993299,29.1667,C-,1,False
+138,Gundabad Opportunist,-2.006576,28.6458,C-,1,False
+139,Hobbit Hole,-2.078695,28.125,C-,1,False
+140,Plunder the Trollshaws,-2.138602,27.6042,C-,1,False
+141,Uneasy Partings,-2.199153,27.0833,C-,1,False
+142,Desolation Prowler,-2.257843,26.5625,C-,1,False
+143,Esgaroth Garrison,-2.285102,26.0417,C-,1,False
+144,Mirkwood,-2.28924,25.5208,C-,1,False
+145,"Smaug, the Great Calamity // Spew Flame",-2.368386,25.0,C-,1,False
+146,Key to the Side-Door,-2.381397,24.4792,C-,1,False
+147,"Gollum, Silent Slinker // Meager Meal",-2.382205,23.9583,C-,1,False
+148,Elvenking's Halls,-2.389521,23.4375,C-,1,False
+149,"Dori, Bearer of Friends",-2.405844,22.9167,C-,1,False
+150,Mirkwood Nurturer,-2.407613,22.3958,C-,1,False
+151,Wargling,-2.423327,21.875,C-,1,False
+152,Dwarven Mattock,-2.432397,21.3542,C-,1,False
+153,Velvetwing Butterflies // Gaze in Wonder,-2.526361,20.8333,C-,1,False
+154,Ravening Warg,-2.537474,20.3125,C-,1,False
+155,Guardian of the Halls,-2.547436,19.7917,C-,1,False
+156,Snowslope Hunter,-2.561808,19.2708,C-,1,False
+157,Getaway Barrel,-2.610885,18.75,C-,2,False
+158,Boughside Wanderers,-2.616161,18.2292,C-,1,False
+159,Lake-town,-2.691237,17.7083,D+,1,False
+160,Goblin-town,-2.707185,17.1875,D+,1,False
+161,"Nori, Teller of Tales",-2.708244,16.6667,D+,1,False
+162,Iron Hills,-2.7186,16.1458,D+,1,False
+163,Lakeshore Apothecary,-2.7843,15.625,D+,1,False
+164,Little Bear,-2.788773,15.1042,D+,1,False
+165,"Ori, Keeper of Songs",-2.824747,14.5833,D+,1,False
+166,Giant's Boulder,-2.834077,14.0625,D+,1,False
+167,Dwarven Provisioner,-2.84776,13.5417,D+,1,False
+168,Thorin's Last Stand,-2.852029,13.0208,D+,2,False
+169,Reverent Howl,-2.861412,12.5,D+,1,False
+170,Moment of Glory,-2.86854,11.9792,D+,1,False
+171,Front Porch Sentries,-2.872681,11.4583,D+,1,False
+172,Iron Hills Stalwart,-2.878807,10.9375,D+,1,False
+173,Well-Worn Spatula,-2.883539,10.4167,D+,1,False
+174,Swamp,-2.884587,9.8958,D,2,True
+175,Crude Bent Blade,-2.891849,9.375,D,1,False
+176,Attercop,-2.893322,8.8542,D,1,False
+177,Plains,-2.915422,8.3333,D,10,True
+178,Forest,-2.917619,7.8125,D,2,True
+179,Ragged Short Spear,-2.926016,7.2917,D,1,False
+180,"Gandalf, Wandering Wizard",-2.928336,6.7708,D,1,False
+181,Island,-2.930024,6.25,D,2,True
+182,Mountain,-2.944623,5.7292,D,2,True
+183,Great Fierce Bee,-2.956561,5.2083,D,1,False
+184,Warg Tactics,-2.966091,4.6875,D-,1,False
+185,Confusticate and Bebother,-2.977208,4.1667,D-,1,False
+186,Long-Bodied Grey Dog,-2.99941,3.6458,D-,1,False
+187,Óin the Brave,-2.999546,3.125,D-,1,False
+188,Vow to Erebor,-3.006316,2.6042,D-,1,False
+189,Elvenking's Harper,-3.022274,2.0833,D-,1,False
+190,Ordinary Bear,-3.040406,1.5625,F,1,False
+191,Dwarven Shortsword,-3.05792,1.0417,F,1,False
+192,Mirkwood Meditator,-3.067483,0.5208,F,1,False
+193,Smaug's Fury,-3.114352,0.0,F,1,False

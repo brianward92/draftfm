@@ -1,0 +1,140 @@
+{
+  "artifact": "draftfm-v1.0-hob-p1p1-forecast",
+  "deployment_conditioning": {
+    "format": "PremierDraft",
+    "format_id": 0,
+    "games_bucket": ">= 100 games",
+    "games_id": 4,
+    "pack_number": 1,
+    "pack_number_encoded": 0,
+    "pick_number": 1,
+    "pick_number_encoded": 0,
+    "picks_per_pack_shape_indicator": 14,
+    "pool": "empty (learned null token, reconstructed in-graph)",
+    "sensitivity_scoring": "none",
+    "serving_default_differs": "The deployed serving default is wr_id 33 (~0.66 win rate) / games_id 6 (1000 games). This forecast is sealed at the expert-slice pair wr_id 28 (>= 0.55) / games_id 4 (>= 100 games), so it is NOT identical to what the live assistant returns under its defaults.",
+    "set_scalars": [
+      0.4825,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "skill_slice": "expert",
+    "win_rate_bucket": ">= 0.55",
+    "wr_id": 28
+  },
+  "forecast_definition": {
+    "band_counts": {
+      "A": 6,
+      "A+": 4,
+      "A-": 10,
+      "B": 23,
+      "B+": 15,
+      "B-": 23,
+      "C": 29,
+      "C+": 25,
+      "C-": 23,
+      "D": 10,
+      "D+": 15,
+      "D-": 6,
+      "F": 4
+    },
+    "ladder_percent": {
+      "A": 3,
+      "A+": 2,
+      "A-": 5,
+      "B": 12,
+      "B+": 8,
+      "B-": 12,
+      "C": 15,
+      "C+": 13,
+      "C-": 12,
+      "D": 5,
+      "D+": 8,
+      "D-": 3,
+      "F": 2
+    },
+    "letter": "PRESENTATION ONLY. Fixed percentile bands on a 13-level ladder, assigned by rank, never by score threshold.",
+    "percentile": "100 * (n - rank) / (n - 1); 100.0 top, 0.0 bottom",
+    "rank": "1 = highest score",
+    "rounding_rule": "largest-remainder (Hamilton) apportionment of the 193 cards over the 13 bands: floor each ideal share, then award leftover slots to the largest fractional remainders, ties broken toward the better grade. Counts sum to 193 exactly.",
+    "score": "raw model logit for the card at P1P1 over the full set list"
+  },
+  "generated_at_local": "2026-08-09T19:33:45-04:00",
+  "generated_at_utc": "2026-08-09T23:33:45+00:00",
+  "outputs": {
+    "hob_p1p1_forecast.csv": "a16c34767aa382e7703f480207f8480484e29ad22bbab2142aa2195e9b9a94a9",
+    "hob_p1p1_forecast.parquet": "4c539b9cd78d669c8b9d9b79745d8009f0fc65dc592cc6007bbba91767e20e25"
+  },
+  "provenance": {
+    "card_list_sha256": "e9588de07fc017487b011102248b6ad8c241e5b95f8608eb96b843a81f4892fa",
+    "feature_manifest_content_hash": "793b9db78f8049f6e3f28fdba0c9f73ab36251c78c3da212fc00e97c9d3a100f",
+    "hob_data_used": "public Scryfall card records ONLY (name, type line, mana cost, oracle text, rarity, keywords). No HOB draft picks, outcomes, ratings, or community grades of any kind exist in this pipeline.",
+    "model_checkpoint_sha256": "9442f1deb45bbe697270b016b73676fc38c31597756014728e3daa729afc7fc5",
+    "model_export": {
+      "graphs": [
+        "card_encoder.onnx",
+        "scorer.onnx"
+      ],
+      "opset": 18,
+      "set_context_tower": false,
+      "tag": "v20260809_final_d256",
+      "tolerance": 0.0001,
+      "torch_vs_onnxruntime_max_abs_diff": 1.907e-06
+    },
+    "printing_list_sha256": "95225745b27334bbf34596b7f263135de277118d00b76a72523e551393bb9128",
+    "scoring_export_git_revision": "eb27b8ce1873260d2113d9bd4492a0973877d4fe",
+    "scoring_export_git_revision_short": "eb27b8c",
+    "scryfall_source_chain": {
+      "layer_1_raw_bulk_snapshot": {
+        "approx_size": "3.79 GB",
+        "filename": "all_cards_20260808133559.json",
+        "retrieved_at_local": "2026-08-08T13:35:59-04:00",
+        "retrieved_at_utc": "2026-08-08T17:35:59+00:00",
+        "sha256": "4a60c20e800c5d55d2459e8edc19355bee794873fc84d653999a145fe9ac130f",
+        "size_bytes": 3792040735,
+        "verification_status": "VERIFIED FIRST-PARTY. SHA-256 measured directly on the raw bulk snapshot on the same machine that produced this forecast, at 2026-08-09T23:33:45+00:00 (2026-08-09T19:33:45-04:00). The measured digest matched the independently measured value supplied by the release coordinator, character for character. File size 3,792,040,735 bytes was confirmed at the same time."
+      },
+      "layer_2_processed_tables": {
+        "card_faces_parquet_sha256": "fe70192a671fbb5aca4a01ee4dd373126d13ab1319cd0cf7693bbf1c9aef4d23",
+        "cards_parquet_sha256": "183300bbffddf99e65f4d4362f2d33e19e5f9bba82a44edb567b1a3be07533dc",
+        "derived_from": "layer_1_raw_bulk_snapshot, processed 2026-08-08T13:36-04:00",
+        "role": "the direct inputs this forecast was computed from",
+        "sets_parquet_sha256": "c00d0e5704050e9bfaed063e5a6a11795f260deb7d88cde59e9eb7c7c3b92d86",
+        "verification_status": "MEASURED on the exact files read during scoring"
+      }
+    },
+    "training": {
+      "best_internal_val_top1": 0.6833883388338834,
+      "best_step": 34000,
+      "d_model": 256,
+      "fit_picks": 161428453,
+      "internal_validation_picks": 8503925,
+      "n_params": 1637999,
+      "seed": 17,
+      "shards": 60,
+      "total_picks": 169932378
+    },
+    "training_git_revision": "7c113e15d0e3ba0af48a2d6289283e93f42263f0",
+    "working_tree_at_seal": "clean; repository HEAD was 6ef68e8aed1c6e2dbb75b48e0c21a3a60dc19a1f, one commit after eb27b8c and unrelated to scoring"
+  },
+  "reproducibility": {
+    "determinism": "scoring is CPU-only and reads no clock, hostname, or RNG; it was run four times in total - twice before the code was committed and twice under committed revision eb27b8c - and every run produced byte-identical CSV and Parquet.",
+    "verified_identical_runs": 4,
+    "verified_identical_under_committed_revision": 2
+  },
+  "set": {
+    "code": "HOB",
+    "forecast_predates_release": true,
+    "name": "The Hobbit",
+    "released_at": "2026-08-14"
+  },
+  "universe": {
+    "basic_lands": "included, flagged display_only_basic=true",
+    "identical_printings_share_scores": true,
+    "max_within_name_score_spread": 0.0,
+    "scryfall_records_scored": 321,
+    "unique_names_published": 193
+  },
+  "what": "Pre-release pack-1-pick-1 card ranking for the Magic: The Gathering set The Hobbit (HOB), produced by the DraftFM draft-pick model before the set was playable on Arena and before any human draft data for it existed."
+}
