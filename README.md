@@ -58,3 +58,7 @@ conditioning, so the run can be audited after the set is played.
   band is 2% wide, not because 4 cards earned it.
 
 Generated 2026-08-09T23:33:45+00:00 (2026-08-09T19:33:45-04:00).
+
+## License
+
+The forecast files in this repository (`hob_p1p1_forecast.csv`, `hob_p1p1_forecast.parquet`, `seal_manifest.json`) are released under [CC BY 4.0](LICENSE). Redistribute freely with attribution to Brian Ward, "DraftFM: A Foundation Model for Day-Zero Drafting in Magic: The Gathering", arXiv:2608.19568. The sealed tag `draftfm-v1.0` and its contents are unchanged by this commit.
