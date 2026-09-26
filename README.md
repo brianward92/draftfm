@@ -1,4 +1,16 @@
-# DraftFM v1.0 — The Hobbit (HOB) pack-1-pick-1 forecast
+# DraftFM first-pick forecasts
+
+## Reality Fracture (FRA), published September 25, 2026
+
+The [complete FRA ratings and reading guide](FRA.md) are now public. The
+forecast was generated September 20 and published on prerelease night,
+**after prerelease events began** and before the MTG Arena release. It covers
+285 FRA names (five display-only basics) and ten associated Special Guests.
+The exact [CSV](fra_p1p1_forecast.csv) has SHA-256
+`116fc528acd83843e283daa73492fa01041f167daebe92103d9f9a52617a348e`.
+The original HOB seal remains unchanged.
+
+## DraftFM v1.0 — The Hobbit (HOB) pack-1-pick-1 forecast
 
 This artifact is a **pre-release prediction**. It ranks every card in the
 Magic: The Gathering set *The Hobbit* (HOB, released 2026-08-14)
@@ -61,4 +73,4 @@ Generated 2026-08-09T23:33:45+00:00 (2026-08-09T19:33:45-04:00).
 
 ## License
 
-The forecast files in this repository (`hob_p1p1_forecast.csv`, `hob_p1p1_forecast.parquet`, `seal_manifest.json`) are released under [CC BY 4.0](LICENSE). Redistribute freely with attribution to Brian Ward, "DraftFM: A Foundation Model for Day-Zero Drafting in Magic: The Gathering", arXiv:2608.19568. The sealed tag `draftfm-v1.0` and its contents are unchanged by this commit.
+The forecast files in this repository (`hob_p1p1_forecast.csv`, `hob_p1p1_forecast.parquet`, `seal_manifest.json`, and the FRA forecast files) are released under [CC BY 4.0](LICENSE). Redistribute freely with attribution to Brian Ward, "DraftFM: A Foundation Model for Day-Zero Drafting in Magic: The Gathering", arXiv:2608.19568. The sealed tag `draftfm-v1.0` and its contents are unchanged by this commit.

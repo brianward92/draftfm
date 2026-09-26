@@ -1,0 +1,15 @@
+{
+  "verified_at_utc": "2026-09-20T16:47:20.550222+00:00",
+  "scoring_runs": 2,
+  "byte_identical_csv_and_parquet": true,
+  "output_sha256": {
+    "fra_p1p1_forecast.csv": "116fc528acd83843e283daa73492fa01041f167daebe92103d9f9a52617a348e",
+    "fra_p1p1_forecast.parquet": "b1ae3e47f9617088d0da31c2d3b5a768760efc21091cdc320a1df836b235da3e"
+  },
+  "unique_names": 295,
+  "basic_lands": 5,
+  "special_guests": 10,
+  "main_set_base_names": 285,
+  "finite_scores": true,
+  "base_printing_rarity_checks": "passed"
+}
